@@ -25,6 +25,11 @@
 
 * **SAA Exam Tip:** AZ letter identifiers (a, b, c) are mapped per AWS account — `us-east-1a` in your account may not be the same physical data center as `us-east-1a` in another account. AWS shuffles these to distribute load evenly.
 
+
+![AWS naming convention breakdown: us-east-2a = Area + Sub area (Region name) + AZ number (Availability Zone name)](../images/AWS-naming-convention-breakdown.png)
+
+
+
 * **Local Zones** bring AWS services (compute, storage, databases) closer to areas without a full Region — designed for latency-sensitive apps (real-time gaming, media creation, ML), offering single-digit millisecond latency. Each Local Zone is an extension of an AWS Region and integrates with EC2, VPC, and EBS.
 
 * **SAA Exam Tip — don't confuse these three infrastructure extension types:**
@@ -54,11 +59,6 @@
 ![Multi-AZ architecture with VPC, public/private subnets, Auto Scaling Groups for web/app tiers, and multi-AZ RDS](../images/application-architecture.png)
 
 
-![AWS naming convention breakdown: us-east-2a = Area + Sub area (Region name) + AZ number (Availability Zone name)](../images/AWS-naming-convention-breakdown.png)
-
-
-![CloudFront request flow: Viewers connect to Edge locations, which connect to Regional edge caches, which connect to the Origin server](../images/locations-and-regional-egde-caches.png)
-
 
 # AWS Edge Locations
 
@@ -84,3 +84,6 @@
   - Absorb content that isn't accessed frequently enough to remain at an edge location.
 
   - Provide an alternative to fetching content directly from the origin server, helping improve performance.
+
+
+  ![CloudFront request flow: Viewers connect to Edge locations, which connect to Regional edge caches, which connect to the Origin server](../images/locations-and-regional-egde-caches.png)
