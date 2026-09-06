@@ -1,4 +1,4 @@
-# Summary — AWS Global Infrastructure
+# AWS Global Infrastructure
 
 
 * The AWS Cloud spans 39+ Regions and 123+ Availability Zones worldwide.
@@ -10,9 +10,8 @@
 **SAA Exam Tip:** AZ identifiers (a, b, c) are mapped differently per AWS account — `us-east-1a` in your account is not necessarily the same physical location as `us-east-1a` in another account. The exam tests this distinction.
 
 
-# Summary — Availability
+# Availability
 
-10 mins read
 
 * High availability means a system stays accessible with minimal downtime, even during failures.
 * AWS achieves this through multiple AZs, Elastic Load Balancing, Auto Scaling, and built-in fault-tolerant services (S3, RDS, DynamoDB).
@@ -22,9 +21,8 @@
 **SAA Exam Tip:** High availability = multiple AZs in the same Region. Disaster recovery = multiple Regions. Know the difference — the exam tests this distinction regularly.
 
 
-# Summary — Edge Locations
+# Edge Locations
 
-10 mins read
 
 * Edge locations are globally distributed endpoints, primarily used by Amazon CloudFront (CDN), to reduce latency.
 * PoPs (Points of Presence) consist of 600+ edge locations and 13+ regional mid-tier caches.
