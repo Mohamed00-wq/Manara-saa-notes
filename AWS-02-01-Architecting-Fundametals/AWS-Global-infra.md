@@ -51,13 +51,13 @@
 
 * Together, these features minimize downtime and ensure a system remains accessible under various conditions.
 
-![Multi-AZ architecture with VPC, public/private subnets, Auto Scaling Groups for web/app tiers, and multi-AZ RDS](images/application-architecture.png)
+![Multi-AZ architecture with VPC, public/private subnets, Auto Scaling Groups for web/app tiers, and multi-AZ RDS](../images/application-architecture.png)
 
 
-![AWS naming convention breakdown: us-east-2a = Area + Sub area (Region name) + AZ number (Availability Zone name)](images/AWS-naming-convention-breakdown.png)
+![AWS naming convention breakdown: us-east-2a = Area + Sub area (Region name) + AZ number (Availability Zone name)](../images/AWS-naming-convention-breakdown.png)
 
 
-![CloudFront request flow: Viewers connect to Edge locations, which connect to Regional edge caches, which connect to the Origin server](images/locations-and-regional-egde-caches.png)
+![CloudFront request flow: Viewers connect to Edge locations, which connect to Regional edge caches, which connect to the Origin server](../images/locations-and-regional-egde-caches.png)
 
 
 # AWS Edge Locations
