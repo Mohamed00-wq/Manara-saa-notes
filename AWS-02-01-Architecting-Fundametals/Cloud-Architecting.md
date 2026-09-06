@@ -1,6 +1,6 @@
 # Key Components of Cloud Architecture Planning
 
-![](../images/Key-Component.png)
+![Key Components of Cloud Architecture Planning](../images/Key-Components.png)
 
 Cloud architecture involves the practice of applying cloud characteristics to create solutions that leverage cloud services and features to fulfill an organization's technical and business requirements.
 
