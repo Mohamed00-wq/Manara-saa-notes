@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AWS
+.aws/
+*.pem
+aws-credentials*
+
+# Environment / secrets
+.env
+*.env
+
+# Logs
+*.log
