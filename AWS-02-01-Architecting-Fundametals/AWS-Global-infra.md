@@ -1,5 +1,18 @@
 # AWS Global Infrastructure
 
+**Regions** 
+
+**Availability Zones**
+
+**AWS Local Zones**
+
+**AWS Data Centers**
+
+**Edge Locations**
+
+**Regional Edge Caches**
+
+![AWS ](../images/Global-infrastructure.png)
 
 * AWS offers 200+ fully featured services from data centers across the globe.
 
@@ -26,7 +39,7 @@
 * **SAA Exam Tip:** AZ letter identifiers (a, b, c) are mapped per AWS account — `us-east-1a` in your account may not be the same physical data center as `us-east-1a` in another account. AWS shuffles these to distribute load evenly.
 
 
-![AWS naming convention breakdown: us-east-2a = Area + Sub area (Region name) + AZ number (Availability Zone name)](../images/AWS-naming-convention-breakdown.png)
+![AWS ](../images/AWS-naming-convention-breakdown.png)
 
 
 
