@@ -12,7 +12,7 @@
 
 **Regional Edge Caches**
 
-![AWS ](../images/Global-infrastrucutre.png)   
+![AWS ](../images/Global-infrastrucutre.jpeg)   
 
 * AWS offers 200+ fully featured services from data centers across the globe.
 
