@@ -1,7 +1,7 @@
 # Pillars of the Well-Architected Framework
 
 
-![Pilar of Well Architected Framework ](.../images/Pilar-of-WAF.png)
+![Pilar of Well Architected Framework ](../../images/Pilar-of-WAF.png)
 
 
 # AWS Well-Architected Framework
