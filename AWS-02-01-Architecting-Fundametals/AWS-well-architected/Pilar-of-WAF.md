@@ -126,3 +126,12 @@ Choose the appropriate consumption model for your use case. For example, you may
 The **AWS Well-Architected Tool (WA Tool)** is a self-service tool in the AWS Management Console that helps you design secure, high-performing, resilient, and efficient cloud architectures. It enables you to review workloads, compare them to AWS best practices, and receive an action plan with step-by-step guidance for improvement. By answering questions across all **six pillars operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability** you gain insights to minimize failures, optimize costs, reduce environmental impact, and align architecture with business goals. The tool provides a structured approach to measuring and refining cloud architectures, aiding governance and decision-making.
 
 **SAA Exam Tip:** The WA Tool is free, self-service, and accessed through the **AWS Management Console**. It generates a report called a **workload review** that highlights high-risk issues (HRIs) and medium-risk issues (MRIs) with remediation steps. You won’t be tested on specific questions it asks just know its purpose: evaluate architecture against best practices across all 6 pillars and produce an improvement plan.
+
+
+# Summary
+
+
+ * The AWS Well-Architected Framework provides a consistent approach to evaluate cloud architectures and guidance to help implement designs.
+ * The AWS Well-Architected Framework is organized into six pillars.
+ * Each pillar documents a set of foundational questions you can use to understand if a specific architecture aligns well with cloud best practices.
+ * The AWS WA Tool helps you review the state of your workloads and compares them to the latest AWS architectural best practices.
