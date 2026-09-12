@@ -88,3 +88,33 @@ It's also crucial to make advanced technologies accessible. If implementing a te
 Mechanical sympathy refers to using a tool or system with a deep understanding of how it operates most effectively. Choose the technology approach that best aligns with your objectives. For instance, consider data access patterns when selecting database or storage solutions.
 
 **SAA Exam Tip:** Performance Efficiency is about choosing the right resource, not the most powerful one. Key decision points: **EC2 instance families** (compute-optimized C-family, memory-optimized R-family, storage-optimized I-family), **ElastiCache** for offloading repeated database reads, **CloudFront** for serving content with low latency, **RDS Read Replicas** for scaling read-heavy workloads. If a scenario says performance is degrading under read load think read replicas or caching, not bigger instances.
+
+
+# Cost Optimization
+
+## The ability to:
+
+ * Measure efficiency
+ * Adopt the right consumption model
+ * Eliminate un-needed costs
+ * Consider using managed services
+
+Cost optimization is an essential, ongoing aspect of any well-designed architecture. This process is iterative and should be continuously refined and improved throughout the production lifecycle. Evaluating the efficiency of your current architecture in relation to your goals can help eliminate unnecessary expenses.
+
+Choose the appropriate consumption model for your use case. For example, you may opt for a model where you pay only for the resources you actually use. Additionally, consider using managed services, as they operate at cloud scale and can provide a lower cost per transaction or service.
+
+**SAA Exam Tip:** Know the EC2 pricing models cold this is one of the most frequently tested topics: **On-Demand** (no commitment, full price best for unpredictable/short workloads), **Reserved Instances / Savings Plans** (1 or 3 year commitment, up to 72% savings best for steady baseline workloads), **Spot Instances** (up to 90% savings, can be interrupted best for fault-tolerant batch or stateless workloads). Anti-pattern: using On-Demand for a 24/7 production database instead of Reserved. Also know: **AWS Cost Explorer** (visualize spend), **AWS Budgets** (set alerts), **Compute Optimizer** (right-sizing recommendations).
+
+
+# Sustainability
+
+## What does sustainability focus on?
+
+ * Establish sustainability goals.
+ * Choose efficient hardware and software
+ * Maximize utilization
+ * Reduce downstream impact
+
+ The Sustainability pillar focuses on building architectures that maximize efficiency and reduce waste. The discipline of sustainability considers the long-term environmental, economic, and societal impacts of your business activities. It's important to understand the impact of your workloads and take steps to reduce their downstream effects.
+
+**SAA Exam Tip**: Sustainability was added as the 6th pillar in **November 2021** know this date, as the exam may test awareness that the framework was updated. Current exam coverage of this pillar is lighter than others, but expect scenario questions around right-sizing to reduce wasted capacity, preferring managed/serverless services (less overhead = less energy), and using graviton/arm-based instances (better performance per watt). The **AWS Customer Carbon Footprint Tool** provides emissions data per account.
