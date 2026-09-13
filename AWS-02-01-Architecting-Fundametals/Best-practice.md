@@ -13,7 +13,7 @@ It's crucial to assess how design choices impact both customers and workload eff
 
 * Ensure that your architecture can handle changes in demand
 
-![scalability](../images/Implementing-scalabitlity.png)
+![scalability](../images/Implementing-scalability.png)
 
 * Scalability is crucial when running workloads on AWS, ensuring infrastructure can meet demand proactively
 
