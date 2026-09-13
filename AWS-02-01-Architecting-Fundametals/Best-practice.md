@@ -13,7 +13,7 @@ It's crucial to assess how design choices impact both customers and workload eff
 
 * Ensure that your architecture can handle changes in demand
 
-[!scalability](../images/Implementing-scalabitlity.png)
+![scalability](../images/Implementing-scalabitlity.png)
 
 * Scalability is crucial when running workloads on AWS, ensuring infrastructure can meet demand proactively
 
@@ -26,7 +26,7 @@ Implementing scalability at every layer helps prevent capacity issues before the
 
 Automate the provisioning, termination, and configuration of resources
 
-[!automaiting](../images/automating.png)
+![automaiting](../images/automating.png)
 
 **Amazon CloudWatch** and **EC2 Auto Scaling** automate failure detection, replace unhealthy resources, and send notifications when resource changes occur.
 
@@ -41,7 +41,7 @@ Provision your computing infrastructure using code instead of manual processes.
  * Propagate changes consistently to all stacks.
 
 
-[!IaC](../images/using-IaC.png)
+![IaC](../images/using-IaC.png)
 
 
 **Infrastructure as Code (IaC)** automates infrastructure deployment, reducing manual effort and errors. It enables rapid deployment of identical environments using templates, eliminating repetitive tasks.
@@ -69,7 +69,7 @@ It means managing infrastructure like software rather than hardware. Instead of 
 ## Using loosely coupled components
 
 
-[!coupled components](../images/coupled-components.png)
+![coupled components](../images/coupled-components.png)
 
 **Loose coupling** improves system reliability and scalability by using managed solutions like **load balancers** and **message queues** as intermediaries between system layers. Unlike traditional tightly integrated infrastructures, where failures in one component can disrupt the entire system, loose coupling allows independent scaling and automatic failure handling.
 
@@ -151,7 +151,7 @@ Take advantage of the flexibility of AWS to increase your cost efficiency.
 
 Minimize redundant data retrieval operations, improving performance and cost.
 
-[!caching](../images/caching.png)
+![caching](../images/caching.png)
 
 
 **SAA Exam Tip:** 
